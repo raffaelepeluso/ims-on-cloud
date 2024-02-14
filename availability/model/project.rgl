@@ -1,0 +1,36 @@
+Model Name : project
+Owner : SHARPE Project Group
+Date Created : Wed Dec 20 17:12:49 CET 2023
+Comment : 
+
+CommentEnd
+
+SubModel : homogeneous
+Type : SRN Model
+
+SubModel : colocated
+Type : SRN Model
+
+
+Function:
+Name:homogeneus
+Number Parameter:0
+Body number of lines:5
+if(#(UPCNT) >= 1)
+1
+else
+0
+end
+
+
+Function:
+Name:colocated
+Number Parameter:0
+Body number of lines:5
+if(#(UPCNT1) >= 1 AND #(UPCNT2) >= 1)
+1
+else
+0
+end
+
+

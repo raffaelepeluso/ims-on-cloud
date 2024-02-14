@@ -1,0 +1,1323 @@
+Type: SRN Model
+
+SubModel:
+Name: colocated
+Number of places: 0
+Number of immediate trans: 0
+Number of timed trans: 0
+Number of arcs:61
+Token displayed:false
+
+Place:
+Name: UPCNT1
+Token: 0
+X, Y: 124,84
+Number of connected objects: 0
+vInputArc: [arc3]
+vOutputArc: [arc0, arc40]
+Place label:
+X, Y: 116,64
+Width, Height: 57,19
+Textwidth: 0
+
+Place:
+Name: DNCNT1
+Token: 0
+X, Y: 124,244
+Number of connected objects: 0
+vInputArc: [arc1, arc41]
+vOutputArc: [arc2]
+Place label:
+X, Y: 113,276
+Width, Height: 60,19
+Textwidth: 0
+
+Place:
+Name: UPDCK1
+Token: 1
+X, Y: 404,84
+Number of connected objects: 0
+vInputArc: [arc7]
+vOutputArc: [arc4, arc32, arc42]
+Place label:
+X, Y: 397,67
+Width, Height: 57,19
+Textwidth: 0
+
+Place:
+Name: DNDCK1
+Token: 0
+X, Y: 404,244
+Number of connected objects: 0
+vInputArc: [arc5, arc43]
+vOutputArc: [arc6, arc33]
+Place label:
+X, Y: 393,276
+Width, Height: 60,19
+Textwidth: 0
+
+Place:
+Name: UPVM1
+Token: 1
+X, Y: 684,84
+Number of connected objects: 0
+vInputArc: [arc11]
+vOutputArc: [arc8, arc34, arc44]
+Place label:
+X, Y: 682,67
+Width, Height: 50,19
+Textwidth: 0
+
+Place:
+Name: DNVM1
+Token: 0
+X, Y: 684,244
+Number of connected objects: 0
+vInputArc: [arc9, arc45]
+vOutputArc: [arc10, arc35]
+Place label:
+X, Y: 677,276
+Width, Height: 53,19
+Textwidth: 0
+
+Place:
+Name: UPHW
+Token: 1
+X, Y: 324,404
+Number of connected objects: 0
+vInputArc: [arc15]
+vOutputArc: [arc12, arc39]
+Place label:
+X, Y: 318,383
+Width, Height: 44,19
+Textwidth: 0
+
+Place:
+Name: DNHW
+Token: 0
+X, Y: 324,564
+Number of connected objects: 0
+vInputArc: [arc13]
+vOutputArc: [arc14, arc56]
+Place label:
+X, Y: 320,596
+Width, Height: 47,19
+Textwidth: 0
+
+Place:
+Name: UPHPV
+Token: 1
+X, Y: 604,404
+Number of connected objects: 0
+vInputArc: [arc19]
+vOutputArc: [arc16, arc37, arc38, arc48]
+Place label:
+X, Y: 572,384
+Width, Height: 48,19
+Textwidth: 0
+
+Place:
+Name: DNHPV
+Token: 0
+X, Y: 604,564
+Number of connected objects: 0
+vInputArc: [arc17, arc49]
+vOutputArc: [arc18, arc54, arc55]
+Place label:
+X, Y: 598,596
+Width, Height: 51,19
+Textwidth: 0
+
+Place:
+Name: UPVM2
+Token: 1
+X, Y: 884,404
+Number of connected objects: 0
+vInputArc: [arc23]
+vOutputArc: [arc20, arc50, arc57]
+Place label:
+X, Y: 880,387
+Width, Height: 50,19
+Textwidth: 0
+
+Place:
+Name: DNVM2
+Token: 0
+X, Y: 884,564
+Number of connected objects: 0
+vInputArc: [arc21, arc51]
+vOutputArc: [arc22, arc58]
+Place label:
+X, Y: 877,596
+Width, Height: 53,19
+Textwidth: 0
+
+Place:
+Name: UPDCK2
+Token: 1
+X, Y: 1164,404
+Number of connected objects: 0
+vInputArc: [arc31]
+vOutputArc: [arc28, arc52, arc59]
+Place label:
+X, Y: 1127,385
+Width, Height: 57,19
+Textwidth: 0
+
+Place:
+Name: DNDCK2
+Token: 0
+X, Y: 1164,564
+Number of connected objects: 0
+vInputArc: [arc29, arc53]
+vOutputArc: [arc30, arc60]
+Place label:
+X, Y: 1153,596
+Width, Height: 60,19
+Textwidth: 0
+
+Place:
+Name: UPCNT2
+Token: 0
+X, Y: 1244,84
+Number of connected objects: 0
+vInputArc: [arc27]
+vOutputArc: [arc24, arc46]
+Place label:
+X, Y: 1228,60
+Width, Height: 57,19
+Textwidth: 0
+
+Place:
+Name: DNCNT2
+Token: 0
+X, Y: 1244,244
+Number of connected objects: 0
+vInputArc: [arc25, arc47]
+vOutputArc: [arc26]
+Place label:
+X, Y: 1233,276
+Width, Height: 60,19
+Textwidth: 0
+
+Immediate:
+Name: t0
+Width: 5
+Height: 32
+X, Y: 138,164
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNCNT1
+Arc:arc41
+vInputArc: [arc32, arc40]
+vOutputArc: [arc41]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 124,173
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Immediate:
+Name: t1
+Width: 5
+Height: 32
+X, Y: 418,164
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNDCK1
+Arc:arc43
+vInputArc: [arc34, arc42]
+vOutputArc: [arc43]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 405,170
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Immediate:
+Name: t2
+Width: 5
+Height: 32
+X, Y: 698,164
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNVM1
+Arc:arc45
+vInputArc: [arc37, arc44]
+vOutputArc: [arc45]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 680,167
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Immediate:
+Name: t3
+Width: 5
+Height: 32
+X, Y: 618,484
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNHPV
+Arc:arc49
+vInputArc: [arc39, arc48]
+vOutputArc: [arc49]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 602,496
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Immediate:
+Name: t4
+Width: 5
+Height: 32
+X, Y: 898,484
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNVM2
+Arc:arc51
+vInputArc: [arc38, arc50]
+vOutputArc: [arc51]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 884,497
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Immediate:
+Name: t5
+Width: 5
+Height: 32
+X, Y: 1178,484
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNDCK2
+Arc:arc53
+vInputArc: [arc52, arc57]
+vOutputArc: [arc53]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 1166,498
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Immediate:
+Name: t6
+Width: 5
+Height: 32
+X, Y: 1258,164
+Guard: null
+Probability: 0.5
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: DNCNT2
+Arc:arc47
+vInputArc: [arc46, arc59]
+vOutputArc: [arc47]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 10
+Transition label:
+X, Y: 1236,177
+Width, Height: 16,19
+Textwidth: 0
+Priority: 10
+
+Timed:
+Name: FCNT1
+Width: 14
+Height: 32
+X, Y: 53,164
+Number of connected objects: 0
+vInputArc: [arc0]
+vOutputArc: [arc1]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/500
+Transition label:
+X, Y: 51,196
+Width, Height: 48,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RCNT1
+Width: 14
+Height: 32
+X, Y: 213,164
+Number of connected objects: 0
+vInputArc: [arc2, arc33]
+vOutputArc: [arc3]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/(10/3600)
+Transition label:
+X, Y: 211,196
+Width, Height: 49,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FDCK1
+Width: 14
+Height: 32
+X, Y: 333,164
+Number of connected objects: 0
+vInputArc: [arc4]
+vOutputArc: [arc5]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/1000
+Transition label:
+X, Y: 331,196
+Width, Height: 48,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RDCK1
+Width: 14
+Height: 32
+X, Y: 493,164
+Number of connected objects: 0
+vInputArc: [arc6, arc35]
+vOutputArc: [arc7]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/(20/3600)
+Transition label:
+X, Y: 491,196
+Width, Height: 49,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FVM1
+Width: 14
+Height: 32
+X, Y: 613,164
+Number of connected objects: 0
+vInputArc: [arc8]
+vOutputArc: [arc9]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/2880
+Transition label:
+X, Y: 611,196
+Width, Height: 41,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RVM1
+Width: 14
+Height: 32
+X, Y: 773,164
+Number of connected objects: 0
+vInputArc: [arc10, arc54]
+vOutputArc: [arc11]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1
+Transition label:
+X, Y: 771,196
+Width, Height: 42,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FHW
+Width: 14
+Height: 32
+X, Y: 253,484
+Number of connected objects: 0
+vInputArc: [arc12]
+vOutputArc: [arc13]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/60000
+Transition label:
+X, Y: 251,516
+Width, Height: 35,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RHW
+Width: 14
+Height: 32
+X, Y: 413,484
+Number of connected objects: 0
+vInputArc: [arc14]
+vOutputArc: [arc15]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/8
+Transition label:
+X, Y: 411,516
+Width, Height: 36,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FHPV
+Width: 14
+Height: 32
+X, Y: 533,484
+Number of connected objects: 0
+vInputArc: [arc16]
+vOutputArc: [arc17]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/2516
+Transition label:
+X, Y: 531,516
+Width, Height: 39,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RHPV
+Width: 14
+Height: 32
+X, Y: 693,484
+Number of connected objects: 0
+vInputArc: [arc18, arc56]
+vOutputArc: [arc19]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/2
+Transition label:
+X, Y: 691,516
+Width, Height: 40,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FVM2
+Width: 14
+Height: 32
+X, Y: 813,484
+Number of connected objects: 0
+vInputArc: [arc20]
+vOutputArc: [arc21]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/2880
+Transition label:
+X, Y: 807,516
+Width, Height: 41,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RVM2
+Width: 14
+Height: 32
+X, Y: 973,484
+Number of connected objects: 0
+vInputArc: [arc22, arc55]
+vOutputArc: [arc23]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1
+Transition label:
+X, Y: 967,516
+Width, Height: 42,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FDCK2
+Width: 14
+Height: 32
+X, Y: 1093,484
+Number of connected objects: 0
+vInputArc: [arc28]
+vOutputArc: [arc29]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/1000
+Transition label:
+X, Y: 1087,516
+Width, Height: 48,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RDCK2
+Width: 14
+Height: 32
+X, Y: 1253,484
+Number of connected objects: 0
+vInputArc: [arc30, arc58]
+vOutputArc: [arc31]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/(20/3600)
+Transition label:
+X, Y: 1247,516
+Width, Height: 49,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: FCNT2
+Width: 14
+Height: 32
+X, Y: 1173,164
+Number of connected objects: 0
+vInputArc: [arc24]
+vOutputArc: [arc25]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/500
+Transition label:
+X, Y: 1167,196
+Width, Height: 48,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Timed:
+Name: RCNT2
+Width: 14
+Height: 32
+X, Y: 1333,164
+Number of connected objects: 0
+vInputArc: [arc26, arc60]
+vOutputArc: [arc27]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 1/(10/3600)
+Transition label:
+X, Y: 1327,196
+Width, Height: 49,19
+Textwidth: 0
+Guard: null
+Priority: 10
+Choice Input: Constant
+
+Arc:
+Name: arc0
+X1, Y1, X2, Y2: 130,113,67,174
+Type: Regular
+Multiplicity: 1
+Src: UPCNT1
+Dest: FCNT1
+ArcPoints: [java.awt.Point[x=130,y=113], java.awt.Point[x=67,y=174]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc1
+X1, Y1, X2, Y2: 67,182,131,246
+Type: Regular
+Multiplicity: 1
+Src: FCNT1
+Dest: DNCNT1
+ArcPoints: [java.awt.Point[x=67,y=182], java.awt.Point[x=131,y=246]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc2
+X1, Y1, X2, Y2: 148,246,213,180
+Type: Regular
+Multiplicity: 1
+Src: DNCNT1
+Dest: RCNT1
+ArcPoints: [java.awt.Point[x=148,y=246], java.awt.Point[x=213,y=180]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc3
+X1, Y1, X2, Y2: 213,177,148,113
+Type: Regular
+Multiplicity: 1
+Src: RCNT1
+Dest: UPCNT1
+ArcPoints: [java.awt.Point[x=213,y=177], java.awt.Point[x=148,y=113]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc4
+X1, Y1, X2, Y2: 410,113,347,174
+Type: Regular
+Multiplicity: 1
+Src: UPDCK1
+Dest: FDCK1
+ArcPoints: [java.awt.Point[x=410,y=113], java.awt.Point[x=347,y=174]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc5
+X1, Y1, X2, Y2: 347,182,411,246
+Type: Regular
+Multiplicity: 1
+Src: FDCK1
+Dest: DNDCK1
+ArcPoints: [java.awt.Point[x=347,y=182], java.awt.Point[x=411,y=246]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc6
+X1, Y1, X2, Y2: 428,246,493,180
+Type: Regular
+Multiplicity: 1
+Src: DNDCK1
+Dest: RDCK1
+ArcPoints: [java.awt.Point[x=428,y=246], java.awt.Point[x=493,y=180]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc7
+X1, Y1, X2, Y2: 493,177,428,113
+Type: Regular
+Multiplicity: 1
+Src: RDCK1
+Dest: UPDCK1
+ArcPoints: [java.awt.Point[x=493,y=177], java.awt.Point[x=428,y=113]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc8
+X1, Y1, X2, Y2: 690,113,627,174
+Type: Regular
+Multiplicity: 1
+Src: UPVM1
+Dest: FVM1
+ArcPoints: [java.awt.Point[x=690,y=113], java.awt.Point[x=627,y=174]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc9
+X1, Y1, X2, Y2: 627,182,691,246
+Type: Regular
+Multiplicity: 1
+Src: FVM1
+Dest: DNVM1
+ArcPoints: [java.awt.Point[x=627,y=182], java.awt.Point[x=691,y=246]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc10
+X1, Y1, X2, Y2: 708,246,773,180
+Type: Regular
+Multiplicity: 1
+Src: DNVM1
+Dest: RVM1
+ArcPoints: [java.awt.Point[x=708,y=246], java.awt.Point[x=773,y=180]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc11
+X1, Y1, X2, Y2: 773,177,708,113
+Type: Regular
+Multiplicity: 1
+Src: RVM1
+Dest: UPVM1
+ArcPoints: [java.awt.Point[x=773,y=177], java.awt.Point[x=708,y=113]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc12
+X1, Y1, X2, Y2: 330,433,267,494
+Type: Regular
+Multiplicity: 1
+Src: UPHW
+Dest: FHW
+ArcPoints: [java.awt.Point[x=330,y=433], java.awt.Point[x=267,y=494]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc13
+X1, Y1, X2, Y2: 267,502,331,566
+Type: Regular
+Multiplicity: 1
+Src: FHW
+Dest: DNHW
+ArcPoints: [java.awt.Point[x=267,y=502], java.awt.Point[x=331,y=566]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc14
+X1, Y1, X2, Y2: 348,566,413,500
+Type: Regular
+Multiplicity: 1
+Src: DNHW
+Dest: RHW
+ArcPoints: [java.awt.Point[x=348,y=566], java.awt.Point[x=413,y=500]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc15
+X1, Y1, X2, Y2: 413,497,348,433
+Type: Regular
+Multiplicity: 1
+Src: RHW
+Dest: UPHW
+ArcPoints: [java.awt.Point[x=413,y=497], java.awt.Point[x=348,y=433]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc16
+X1, Y1, X2, Y2: 610,433,547,494
+Type: Regular
+Multiplicity: 1
+Src: UPHPV
+Dest: FHPV
+ArcPoints: [java.awt.Point[x=610,y=433], java.awt.Point[x=547,y=494]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc17
+X1, Y1, X2, Y2: 547,502,611,566
+Type: Regular
+Multiplicity: 1
+Src: FHPV
+Dest: DNHPV
+ArcPoints: [java.awt.Point[x=547,y=502], java.awt.Point[x=611,y=566]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc18
+X1, Y1, X2, Y2: 628,566,693,500
+Type: Regular
+Multiplicity: 1
+Src: DNHPV
+Dest: RHPV
+ArcPoints: [java.awt.Point[x=628,y=566], java.awt.Point[x=693,y=500]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc19
+X1, Y1, X2, Y2: 693,497,628,433
+Type: Regular
+Multiplicity: 1
+Src: RHPV
+Dest: UPHPV
+ArcPoints: [java.awt.Point[x=693,y=497], java.awt.Point[x=628,y=433]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc20
+X1, Y1, X2, Y2: 890,433,827,494
+Type: Regular
+Multiplicity: 1
+Src: UPVM2
+Dest: FVM2
+ArcPoints: [java.awt.Point[x=890,y=433], java.awt.Point[x=827,y=494]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc21
+X1, Y1, X2, Y2: 827,502,891,566
+Type: Regular
+Multiplicity: 1
+Src: FVM2
+Dest: DNVM2
+ArcPoints: [java.awt.Point[x=827,y=502], java.awt.Point[x=891,y=566]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc22
+X1, Y1, X2, Y2: 908,566,973,500
+Type: Regular
+Multiplicity: 1
+Src: DNVM2
+Dest: RVM2
+ArcPoints: [java.awt.Point[x=908,y=566], java.awt.Point[x=973,y=500]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc23
+X1, Y1, X2, Y2: 973,497,908,433
+Type: Regular
+Multiplicity: 1
+Src: RVM2
+Dest: UPVM2
+ArcPoints: [java.awt.Point[x=973,y=497], java.awt.Point[x=908,y=433]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc24
+X1, Y1, X2, Y2: 1250,113,1187,174
+Type: Regular
+Multiplicity: 1
+Src: UPCNT2
+Dest: FCNT2
+ArcPoints: [java.awt.Point[x=1250,y=113], java.awt.Point[x=1187,y=174]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc25
+X1, Y1, X2, Y2: 1187,182,1251,246
+Type: Regular
+Multiplicity: 1
+Src: FCNT2
+Dest: DNCNT2
+ArcPoints: [java.awt.Point[x=1187,y=182], java.awt.Point[x=1251,y=246]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc26
+X1, Y1, X2, Y2: 1268,246,1333,180
+Type: Regular
+Multiplicity: 1
+Src: DNCNT2
+Dest: RCNT2
+ArcPoints: [java.awt.Point[x=1268,y=246], java.awt.Point[x=1333,y=180]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc27
+X1, Y1, X2, Y2: 1333,177,1268,113
+Type: Regular
+Multiplicity: 1
+Src: RCNT2
+Dest: UPCNT2
+ArcPoints: [java.awt.Point[x=1333,y=177], java.awt.Point[x=1268,y=113]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc28
+X1, Y1, X2, Y2: 1170,433,1107,494
+Type: Regular
+Multiplicity: 1
+Src: UPDCK2
+Dest: FDCK2
+ArcPoints: [java.awt.Point[x=1170,y=433], java.awt.Point[x=1107,y=494]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc29
+X1, Y1, X2, Y2: 1107,502,1171,566
+Type: Regular
+Multiplicity: 1
+Src: FDCK2
+Dest: DNDCK2
+ArcPoints: [java.awt.Point[x=1107,y=502], java.awt.Point[x=1171,y=566]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc30
+X1, Y1, X2, Y2: 1188,566,1253,500
+Type: Regular
+Multiplicity: 1
+Src: DNDCK2
+Dest: RDCK2
+ArcPoints: [java.awt.Point[x=1188,y=566], java.awt.Point[x=1253,y=500]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc31
+X1, Y1, X2, Y2: 1253,497,1188,433
+Type: Regular
+Multiplicity: 1
+Src: RDCK2
+Dest: UPDCK2
+ArcPoints: [java.awt.Point[x=1253,y=497], java.awt.Point[x=1188,y=433]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc32
+X1, Y1, X2, Y2: 406,108,143,181
+Type: Inhibitor
+Multiplicity: 1
+Src: UPDCK1
+Dest: t0
+ArcPoints: [java.awt.Point[x=406,y=108], java.awt.Point[x=143,y=181]]
+Choice Input: Constant
+Circle1, Circle2: 146,180
+
+Arc:
+Name: arc33
+X1, Y1, X2, Y2: 404,257,226,185
+Type: Inhibitor
+Multiplicity: 1
+Src: DNDCK1
+Dest: RCNT1
+ArcPoints: [java.awt.Point[x=404,y=257], java.awt.Point[x=226,y=185]]
+Choice Input: Constant
+Circle1, Circle2: 230,186
+
+Arc:
+Name: arc34
+X1, Y1, X2, Y2: 686,108,423,181
+Type: Inhibitor
+Multiplicity: 1
+Src: UPVM1
+Dest: t1
+ArcPoints: [java.awt.Point[x=686,y=108], java.awt.Point[x=423,y=181]]
+Choice Input: Constant
+Circle1, Circle2: 426,180
+
+Arc:
+Name: arc35
+X1, Y1, X2, Y2: 684,257,507,185
+Type: Inhibitor
+Multiplicity: 1
+Src: DNVM1
+Dest: RDCK1
+ArcPoints: [java.awt.Point[x=684,y=257], java.awt.Point[x=507,y=185]]
+Choice Input: Constant
+Circle1, Circle2: 510,186
+
+Arc:
+Name: arc37
+X1, Y1, X2, Y2: 623,404,698,176
+Type: Inhibitor
+Multiplicity: 1
+Src: UPHPV
+Dest: t2
+ArcPoints: [java.awt.Point[x=623,y=404], java.awt.Point[x=698,y=176]]
+Choice Input: Constant
+Circle1, Circle2: 696,179
+
+Arc:
+Name: arc38
+X1, Y1, X2, Y2: 635,422,898,496
+Type: Inhibitor
+Multiplicity: 1
+Src: UPHPV
+Dest: t4
+ArcPoints: [java.awt.Point[x=635,y=422], java.awt.Point[x=898,y=496]]
+Choice Input: Constant
+Circle1, Circle2: 894,494
+
+Arc:
+Name: arc39
+X1, Y1, X2, Y2: 355,422,618,496
+Type: Inhibitor
+Multiplicity: 1
+Src: UPHW
+Dest: t3
+ArcPoints: [java.awt.Point[x=355,y=422], java.awt.Point[x=618,y=496]]
+Choice Input: Constant
+Circle1, Circle2: 614,494
+
+Arc:
+Name: arc40
+X1, Y1, X2, Y2: 142,115,140,164
+Type: Regular
+Multiplicity: 1
+Src: UPCNT1
+Dest: t0
+ArcPoints: [java.awt.Point[x=142,y=115], java.awt.Point[x=140,y=164]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc41
+X1, Y1, X2, Y2: 138,195,142,244
+Type: Regular
+Multiplicity: 1
+Src: t0
+Dest: DNCNT1
+ArcPoints: [java.awt.Point[x=138,y=195], java.awt.Point[x=142,y=244]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc42
+X1, Y1, X2, Y2: 422,115,420,164
+Type: Regular
+Multiplicity: 1
+Src: UPDCK1
+Dest: t1
+ArcPoints: [java.awt.Point[x=422,y=115], java.awt.Point[x=420,y=164]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc43
+X1, Y1, X2, Y2: 418,195,422,244
+Type: Regular
+Multiplicity: 1
+Src: t1
+Dest: DNDCK1
+ArcPoints: [java.awt.Point[x=418,y=195], java.awt.Point[x=422,y=244]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc44
+X1, Y1, X2, Y2: 702,115,700,164
+Type: Regular
+Multiplicity: 1
+Src: UPVM1
+Dest: t2
+ArcPoints: [java.awt.Point[x=702,y=115], java.awt.Point[x=700,y=164]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc45
+X1, Y1, X2, Y2: 698,195,702,244
+Type: Regular
+Multiplicity: 1
+Src: t2
+Dest: DNVM1
+ArcPoints: [java.awt.Point[x=698,y=195], java.awt.Point[x=702,y=244]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc46
+X1, Y1, X2, Y2: 1262,115,1260,164
+Type: Regular
+Multiplicity: 1
+Src: UPCNT2
+Dest: t6
+ArcPoints: [java.awt.Point[x=1262,y=115], java.awt.Point[x=1260,y=164]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc47
+X1, Y1, X2, Y2: 1258,195,1262,244
+Type: Regular
+Multiplicity: 1
+Src: t6
+Dest: DNCNT2
+ArcPoints: [java.awt.Point[x=1258,y=195], java.awt.Point[x=1262,y=244]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc48
+X1, Y1, X2, Y2: 622,435,620,484
+Type: Regular
+Multiplicity: 1
+Src: UPHPV
+Dest: t3
+ArcPoints: [java.awt.Point[x=622,y=435], java.awt.Point[x=620,y=484]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc49
+X1, Y1, X2, Y2: 618,515,622,564
+Type: Regular
+Multiplicity: 1
+Src: t3
+Dest: DNHPV
+ArcPoints: [java.awt.Point[x=618,y=515], java.awt.Point[x=622,y=564]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc50
+X1, Y1, X2, Y2: 902,435,900,484
+Type: Regular
+Multiplicity: 1
+Src: UPVM2
+Dest: t4
+ArcPoints: [java.awt.Point[x=902,y=435], java.awt.Point[x=900,y=484]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc51
+X1, Y1, X2, Y2: 898,515,902,564
+Type: Regular
+Multiplicity: 1
+Src: t4
+Dest: DNVM2
+ArcPoints: [java.awt.Point[x=898,y=515], java.awt.Point[x=902,y=564]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc52
+X1, Y1, X2, Y2: 1182,435,1180,484
+Type: Regular
+Multiplicity: 1
+Src: UPDCK2
+Dest: t5
+ArcPoints: [java.awt.Point[x=1182,y=435], java.awt.Point[x=1180,y=484]]
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc53
+X1, Y1, X2, Y2: 1178,515,1182,564
+Type: Regular
+Multiplicity: 1
+Src: t5
+Dest: DNDCK2
+ArcPoints: [java.awt.Point[x=1178,y=515], java.awt.Point[x=1182,y=564]]
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc54
+X1, Y1, X2, Y2: 623,564,773,186
+Type: Inhibitor
+Multiplicity: 1
+Src: DNHPV
+Dest: RVM1
+ArcPoints: [java.awt.Point[x=623,y=564], java.awt.Point[x=773,y=186]]
+Choice Input: Constant
+Circle1, Circle2: 771,189
+
+Arc:
+Name: arc55
+X1, Y1, X2, Y2: 635,574,973,497
+Type: Inhibitor
+Multiplicity: 1
+Src: DNHPV
+Dest: RVM2
+ArcPoints: [java.awt.Point[x=635,y=574], java.awt.Point[x=973,y=497]]
+Choice Input: Constant
+Circle1, Circle2: 969,498
+
+Arc:
+Name: arc56
+X1, Y1, X2, Y2: 355,574,693,497
+Type: Inhibitor
+Multiplicity: 1
+Src: DNHW
+Dest: RHPV
+ArcPoints: [java.awt.Point[x=355,y=574], java.awt.Point[x=693,y=497]]
+Choice Input: Constant
+Circle1, Circle2: 689,498
+
+Arc:
+Name: arc57
+X1, Y1, X2, Y2: 915,422,1178,496
+Type: Inhibitor
+Multiplicity: 1
+Src: UPVM2
+Dest: t5
+ArcPoints: [java.awt.Point[x=915,y=422], java.awt.Point[x=1178,y=496]]
+Choice Input: Constant
+Circle1, Circle2: 1174,494
+
+Arc:
+Name: arc58
+X1, Y1, X2, Y2: 915,574,1253,497
+Type: Inhibitor
+Multiplicity: 1
+Src: DNVM2
+Dest: RDCK2
+ArcPoints: [java.awt.Point[x=915,y=574], java.awt.Point[x=1253,y=497]]
+Choice Input: Constant
+Circle1, Circle2: 1249,498
+
+Arc:
+Name: arc59
+X1, Y1, X2, Y2: 1183,404,1258,176
+Type: Inhibitor
+Multiplicity: 1
+Src: UPDCK2
+Dest: t6
+ArcPoints: [java.awt.Point[x=1183,y=404], java.awt.Point[x=1258,y=176]]
+Choice Input: Constant
+Circle1, Circle2: 1256,179
+
+Arc:
+Name: arc60
+X1, Y1, X2, Y2: 1183,564,1333,186
+Type: Inhibitor
+Multiplicity: 1
+Src: DNDCK2
+Dest: RCNT2
+ArcPoints: [java.awt.Point[x=1183,y=564], java.awt.Point[x=1333,y=186]]
+Choice Input: Constant
+Circle1, Circle2: 1331,189
+
+
+Output:
+Outputs created: 0
